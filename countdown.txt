@@ -1,0 +1,6 @@
+MOV R1, 10  ;line 1, load value 10 to the register 1
+PRN R1      ;line 2, print register 1
+SUB R1, 1   ;line 3, decrement R1
+JMP R1, 6   ;line 4, if R1 is 0 then go to line 6
+JMP 2       ;line 5, go to line 2
+HLT         ;finish the program

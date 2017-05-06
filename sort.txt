@@ -1,0 +1,78 @@
+MOV #0 30;
+MOV #1 23;
+MOV #2 4;
+MOV #3 , 56;
+MOV #4 34
+MOV #5 56
+MOV #6 89;
+MOV #7 , 32
+MOV #8 , 45
+MOV #9 , 25
+MOV R3 , 10
+SUB R3 , 1
+MOV #0 , R1
+SUB R1 , #1
+JPN R1 , 20
+MOV #1 , R1
+MOV #0 , R2
+MOV R1 , #0
+MOV R2 , #1
+MOV #1 , R1
+SUB R1 , #2
+JPN R1 , 27
+MOV #2 , R1
+MOV #1 , R2
+MOV R1 , #1
+MOV R2 , #2
+MOV #2 , R1
+SUB R1 , #3
+JPN R1 , 34
+MOV #3 , R1
+MOV #2 , R2
+MOV R1 , #2
+MOV R2 , #3
+MOV #3 , R1
+SUB R1 , #4
+JPN R1 , 41
+MOV #4 , R1
+MOV #3 , R2
+MOV R1 , #3
+MOV R2 , #4
+MOV #4 , R1
+SUB R1 , #5
+JPN R1 , 48
+MOV #5 , R1
+MOV #4 , R2
+MOV R1 , #4
+MOV R2 , #5
+MOV #5 , R1
+SUB R1 , #6
+JPN R1 , 55
+MOV #6 , R1
+MOV #5 , R2
+MOV R1 , #5
+MOV R2 , #6
+MOV #6 , R1
+SUB R1 , #7
+JPN R1 , 62
+MOV #7 , R1
+MOV #6 , R2
+MOV R1 , #6
+MOV R2 , #7
+MOV #7 , R1
+SUB R1 , #8
+JPN R1 , 69
+MOV #8 , R1
+MOV #7 , R2
+MOV R1 , #7
+MOV R2 , #8
+MOV #8 , R1
+SUB R1 , #9
+JPN R1 , 76
+MOV #9 , R1
+MOV #8 , R2
+MOV R1 , #8
+MOV R2 , #9
+JMP R3 , 78
+JMP 12
+HLT
