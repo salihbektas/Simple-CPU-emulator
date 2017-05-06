@@ -7,6 +7,7 @@ Using c++ 2011 standard.
 Written by Salih Bektaş
 
 
+
 This is a simple CPU emulator
 
 This CPU has 5 registers(R1, R2,..., R5) and 50 memory areas(#1, #2, ..., #50)
@@ -19,9 +20,11 @@ The program needs a file in which the instructions are written to work.
 Get file name as main argument.
 
 
+
 Arguments:
 
 file_name debug_mode
+
 
 
 Debug mod:
@@ -31,6 +34,7 @@ Debug mod:
 1 = Debug mod enabled. Print data in all registers on console.
 
 2 = Debug mod enabled. Print data in all registers and all memory areas on console.
+
 
 
 Instructions file:
@@ -76,6 +80,7 @@ SUB [register], [register] ;Subtraction second register from first register. Exa
 
 
 JMP [number] ;Jump the program on number line. Example: "JMP 11"
+
 JMP [register] [number] ;If the data which it is in the register is zero, jump the numbered line. Example; "JMP R1 6"
 
 
